@@ -1,2 +1,3 @@
-console.log("works");
-alert("also works");
+import navBar from "./nav-bar";
+
+navBar();
