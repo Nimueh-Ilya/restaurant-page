@@ -107,6 +107,7 @@ body {
   color: white;
   flex-grow: 1;
   z-index: 0;
+  padding: 5% 20%;
 }
 .menu-content {
   flex-grow: 1;
