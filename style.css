@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background: url(./assets/ramen.jpeg);
+  background: url(assets/ramen.jpeg);
   background-size: cover;
 }
 .home-content {
@@ -46,7 +46,7 @@ body {
   font-weight: bold;
 }
 .nav-image {
-  background: url(./assets/ramen.svg);
+  background: url(assets/ramen.svg);
   background-size: cover;
   height: 60px;
   aspect-ratio: 1;
