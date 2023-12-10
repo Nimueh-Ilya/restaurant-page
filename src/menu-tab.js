@@ -13,8 +13,8 @@ export default function menuTab() {
   menuItem1.classList.add("menu-item");
   menuItem2.classList.add("menu-item");
   menuItem3.classList.add("menu-item");
-  menuOpacity.classList.add("menu-opacity");
-  menuContainer.classList.add("menu-opacity", "opacity");
+  menuOpacity.classList.add("menu-opacity", "opacity");
+  menuContainer.classList.add("menu-container");
   // Append them to their parents
   menuItems.appendChild(menuItem1);
   menuItems.appendChild(menuItem2);

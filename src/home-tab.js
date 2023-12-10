@@ -5,6 +5,7 @@ export default function homeTab() {
   const mainPar = document.createElement("p");
   const subPar = document.createElement("p");
   // Add their classes
+  parContainer.classList.add("par-container");
   mainPar.classList.add("main-text");
   subPar.classList.add("sub-text");
   subContainer.classList.add("home-content", "sub-container");
