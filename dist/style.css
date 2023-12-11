@@ -146,7 +146,7 @@ body {
   justify-content: center;
 }
 .location-map {
-  background: url(/dist/assets/location.png);
+  background: url(assets/location.png);
   background-size: cover;
   height: 300px;
   border-radius: 50%;
@@ -180,13 +180,13 @@ body {
   justify-content: center;
 }
 .menu-item-image1 {
-  background: url(/dist/assets/sakura.svg);
+  background: url(assets/sakura.svg);
 }
 .menu-item-image2 {
-  background: url(/dist/assets/lotus.svg);
+  background: url(assets/lotus.svg);
 }
 .menu-item-image3 {
-  background: url(/dist/assets/bonsai.svg);
+  background: url(ssets/bonsai.svg);
 }
 .menu-item-image {
   background-size: contain;
