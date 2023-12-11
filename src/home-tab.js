@@ -14,7 +14,7 @@ export default function homeTab() {
   parContainer.appendChild(subPar);
   subContainer.appendChild(parContainer);
   // Include Content
-  mainPar.innerHTML = "Main Paragraph";
-  subPar.innerHTML = "Secondary Paragraph";
+  mainPar.innerHTML = " Every strand tells a story, and every bowl";
+  subPar.innerHTML = "is a journey through a world of flavors.";
   return subContainer;
 }

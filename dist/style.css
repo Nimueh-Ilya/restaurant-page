@@ -76,14 +76,12 @@ body {
   margin-top: 100px;
   gap: 20px;
 }
-.main-text {
-  font-size: 60px;
+.main-text,
+.sub-text {
+  font-size: 30px;
   opacity: 100%;
   margin: 0;
-}
-.sub-text {
-  margin: 0;
-  text-align: right;
+  align-self: center;
 }
 .opacity {
   opacity: 0.5;
@@ -109,6 +107,9 @@ body {
   z-index: 0;
   padding: 5% 20%;
 }
+.about-paragraph5 {
+  text-align: right;
+}
 .menu-content {
   flex-grow: 1;
   display: flex;
@@ -120,12 +121,76 @@ body {
 .menu-container {
   position: relative;
   flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-items {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
 }
 .location-container {
   position: relative;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.menu-items {
-  margin: 0;
-  padding: 0;
+.location-map-container {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.location-map {
+  background: url(/dist/assets/location.png);
+  background-size: cover;
+  height: 300px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  position: relative;
+  z-index: 1;
+}
+.location-paragraph {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+.menu-item-title {
+  color: rgb(244, 185, 38);
+  font-weight: bolder;
+  text-align: center;
+  font-size: 28px;
+}
+.menu-item-paragraph {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  line-height: 30px;
+}
+.menu-item {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.menu-item-image1 {
+  background: url(/dist/assets/sakura.svg);
+}
+.menu-item-image2 {
+  background: url(/dist/assets/lotus.svg);
+}
+.menu-item-image3 {
+  background: url(/dist/assets/bonsai.svg);
+}
+.menu-item-image {
+  background-size: contain;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
